@@ -1,0 +1,134 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border : border-box;
+}
+
+.bord:hover
+{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+/* 
+main bar */
+#navbar
+{
+    height: 60px;
+    background-color: #091515;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-right: 20px;
+}
+
+
+/* 
+box one */
+#navlogo
+{
+    height: 50px;
+    width: 100px;
+}
+
+#logo
+{
+    background-image: url("https://www.shutterstock.com/image-vector/amazon-logo-editorial-icon-isolated-600nw-2333488123.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+ /* box 2 */
+#deliver
+{
+    margin-left: 15px;
+    color: #ccc;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+#loc
+{
+    display: flex;
+}
+
+ /* box 3 */
+#searchbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: palegoldenrod;
+}
+
+#searchbar:hover
+{
+    border: 3px solid orange;
+}
+
+#search
+{
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+#searchicon
+{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(226, 159, 13);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 3rem;
+    color: #0f1111;
+    font-size: 1.4rem;
+}
+
+#searchspace
+{
+    width: 100%;
+    font-size: 17px;
+    border: none;
+}
+
+ /* box 4 */
+
+ .hello
+{
+    font-size: 12px;
+}
+
+.acc
+{
+    font-weight: 14px;
+}
+
+ /* box 5 */
+ #cart
+ {
+    display: flex;
+ }
+
+ #cart i
+ {
+    font-size: 30px;
+ }
+
+ #cart p
+ {
+    padding-top: 10px;
+    font-size: 20px;
+ }
