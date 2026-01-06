@@ -1,3 +1,8 @@
+body
+{
+        background-color: #f6f2e6;
+}
+
 *
 {
     margin: 0px;
@@ -7,8 +12,8 @@
 
 .bord:hover
 {
-    border: 2px solid white;
-    border-radius: 5px;
+    border: 1.3px solid white;
+    border-radius: 2px;
 }
 
 
@@ -17,7 +22,7 @@ main bar */
 #navbar
 {
     height: 60px;
-    background-color: #091515;
+    background-color: #1e2d3f;
     color:white;
     display: flex;
     flex-direction: row;
@@ -25,6 +30,8 @@ main bar */
     justify-content: space-between;
     padding-left:10px;
     padding-right: 20px;
+    position:sticky;
+    top: 0px;
 }
 
 
@@ -33,12 +40,12 @@ box one */
 #navlogo
 {
     height: 50px;
-    width: 100px;
+    width: 100px; 
 }
 
 #logo
 {
-    background-image: url("https://www.shutterstock.com/image-vector/amazon-logo-editorial-icon-isolated-600nw-2333488123.jpg");
+    background-image: url("https://telecomtalk.info/wp-content/uploads/2021/05/amazon-one-month-prime-membership-discontinued-rbi.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -131,3 +138,123 @@ box one */
     padding-top: 10px;
     font-size: 20px;
  }
+
+
+  /* panel */
+
+  #panel
+  {
+    background-color: #2b3b4f;
+    height: 39px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  #panelall
+  {
+    height: 30px;
+    color: white;
+    padding-left: 10px;
+    align-items: center;
+    align-content: center;
+    padding: 3px;
+  }
+
+  #all
+  {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  #paneloptions
+  {
+    width:90%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+   /* the main back */
+
+#backama
+{
+    background-color: #f6f2e6;
+    display: flex;
+    justify-content: center;
+}
+
+#backimg
+{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/af_pc_2x._CB792409181_.jpg");
+    background-size: cover;
+    height: 40vh;
+    width: 98vw;
+}
+
+
+
+#content
+{
+    font-size: 20px;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+#box1
+{
+    padding-top: 10px;
+    background-color: white;
+    width: 21vw;
+    height: 400px;
+}
+#box2
+{
+    padding-top: 10px;
+    background-color: white;
+    width: 21vw;
+    height: 400px;
+}
+#box3
+{
+    padding-top: 10px;
+    background-color: white;
+    width: 21vw;
+    height: 400px;
+}
+#box4
+{
+    padding-top: 10px;
+    background-color: white;
+    width: 21vw;
+    height: 400px;
+}
+
+
+.imgback
+{
+    height: 300px;
+    width: 250px;
+}
+
+#box5
+{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-left: 42px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+    width: 94%;
+    height: 300px;
+    
+}
