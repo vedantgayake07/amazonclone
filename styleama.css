@@ -19,11 +19,6 @@ body
 
 /* 
 main bar */
-#navabar
-{
-    position:sticky;
-    top: 0px;
-}
 #navbar
 {
     height: 60px;
@@ -35,6 +30,8 @@ main bar */
     justify-content: space-between;
     padding-left:10px;
     padding-right: 20px;
+    position: sticky;
+    top: 0px;
 }
 
 
@@ -260,4 +257,44 @@ box one */
     width: 94%;
     height: 300px;
     
+}
+
+#footer
+{
+    background-color: #1e2d3f;
+}
+
+#back
+{
+    align-content: center;
+    background-color:#1a2735;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+#contactus
+{
+    height: 180px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#final
+{
+    background-color: #0f1111;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 50px;
+    height: 50px;
 }
