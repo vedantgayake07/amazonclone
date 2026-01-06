@@ -19,6 +19,11 @@ body
 
 /* 
 main bar */
+#navabar
+{
+    position:sticky;
+    top: 0px;
+}
 #navbar
 {
     height: 60px;
@@ -30,8 +35,6 @@ main bar */
     justify-content: space-between;
     padding-left:10px;
     padding-right: 20px;
-    position:sticky;
-    top: 0px;
 }
 
 
